@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-grid {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+header{
+    height: 80px;
+    background-color: #1e1c21;
+
+}
+
+.menu {
+    width: 660px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+}
+
+.banner {
+    background-image: url(../img/Desktop\ -\ 1.svg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+.img-banner {
+    display: flex;
+    width: 100%;
+    height: auto;
+    border:1px solid red;
+
+     
+}
+
+.posicao-texto {
+    justify-content: flex-end;
+}
+
+
+
+.texto-banner {
+    width: 495px;
+    color: white;
+    text-align: center;
+    border:1px solid red;
+}
+
+.secao-jogos {
+    background-color: black;
+}
+
+.jogos {
+    display: flex;
+    height: auto;
+    width: 150px;
+	display: inline-block;
+}

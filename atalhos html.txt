@@ -1,0 +1,2 @@
+ctrl+alt seta p/ lado
+ctrl + shit seta p cima
